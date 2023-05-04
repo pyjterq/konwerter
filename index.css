@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+:root {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    background-color: #000;
+}
+.container {
+    max-width: 500px;
+    margin: 4rem auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #6943FF;
+    padding: 3.4rem;
+    align-items: center;
+}
+h1 {
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+h2 {
+    color: #CCC1FF;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 0;
+
+}
+button {
+    color: #3D3D3D;
+    padding: .9em 2.7em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#input {
+    font-size: 5.8rem;
+    /* font-size: 58px; */
+    font-weight: 800;
+    color: #fff;
+    /* padding: .25em .5em; */
+    margin: 1.5rem 0 2.6rem;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background-color: #6943FF;
+    max-width: 60%;
+}
+input::placeholder {
+    color: #fff;
+}
+
+.display {
+    background-color: #1F2937;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2.343rem;
+}
+.result {
+    font-size: 1.4rem;
+    font-weight: 400;
+    background-color: #273549;
+    padding: 3.1rem 0 1.1rem 0;
+    width: 100%;
+    text-align: center;
+}

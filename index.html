@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Metric/Imperial Unit Converter</h1>
+                <!-- <p id="quantity">00</p> -->
+                <!-- <input type="text" placeholder="00" id="quantity"> -->
+                <input type="number" placeholder="0" id="input" size="4">
+                <button autofocus>Convert</button>
+            </div>
+            <div class="display">
+                <div class="result">
+                   <h2>Length (Meter/Feet)</h2> 
+                   <p id="length">0 meters = 0 feet | 0 feet = 0 meters</p>
+                </div>
+                <div class="result">
+                   <h2>Volume (Liters/Gallons)</h2> 
+                   <p id="volume">0 liters = 0 gallons | 0 gallons = 0 liters</p>
+                </div>
+                <div class="result">
+                    <h2>Mass (Kilograms/Pounds)</h2>
+                    <p id="mass">0 kilos = 0 pounds | 0 pounds = 0 kilos</p>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
